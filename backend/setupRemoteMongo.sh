@@ -1,0 +1,2 @@
+# mongoimport --uri mongodb://127.0.0.1:27017/xflix --drop --collection videos --file data/export_xflix_videos.json
+mongoimport --uri "mongodb://ac-goydqyp-shard-00-00.0lzxffj.mongodb.net:27017,ac-goydqyp-shard-00-01.0lzxffj.mongodb.net:27017,ac-goydqyp-shard-00-02.0lzxffj.mongodb.net:27017/xflix?replicaSet=atlas-pm2u84-shard-0" --ssl --authenticationDatabase admin --username abhijeetkarmakar150 --password abhijeet152 --drop --collection videos --file data/export_xflix_videos.json
